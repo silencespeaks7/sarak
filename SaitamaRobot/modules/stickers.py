@@ -28,9 +28,9 @@ from telegram import Update, Bot
 from telegram.ext import run_async
 from telegram.utils.helpers import escape_markdown
 
-from tg_bot import dispatcher
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot.modules.tr_engine.strings import tld
+from Saitamabot import dispatcher
+from Saitamabot.modules.disable import DisableAbleCommandHandler
+from Saitamabot.modules.tr_engine.strings import tld
 
 
 @run_async
