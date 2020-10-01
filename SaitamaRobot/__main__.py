@@ -200,7 +200,6 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="🧾 Getting started guide",
                              url="https://t.me/saraUpdates/29")
-                     ],
               
                      ]]))
     else:
