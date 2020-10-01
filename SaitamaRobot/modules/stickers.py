@@ -30,7 +30,7 @@ from telegram.utils.helpers import escape_markdown
 
 from SaitamaRobot import dispatcher
 from SaitamaRobot.modules.disable import DisableAbleCommandHandler
-from SaitamaRobot.modules.tr_engine.strings import tld
+
 
 
 @run_async
