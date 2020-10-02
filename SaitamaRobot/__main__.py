@@ -52,8 +52,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am here to make your group management fun and easy!
+I m here to make your group management fun and easy! 
+
 I have lots of hany features .....
+
 If you have any questions on how to use me, /help.
 """
 
