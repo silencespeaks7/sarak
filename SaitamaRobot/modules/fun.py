@@ -20,11 +20,11 @@ from pathlib import Path
 from telegram import Bot, Update, ParseMode, Message
 from telegram.ext import run_async
 
-import SaraRobot.modules.fun_strings as fun_strings
-from SaraRobot import dispatcher
-from SaraRobot.modules.disable import DisableAbleCommandHandler
-from SaraRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaraRobot.modules.helper_funcs.extraction import extract_user
+import SaitamaRobot.modules.fun_strings as fun_strings
+from SaitamaRobot import dispatcher
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
+from SaitamaRobot.modules.helper_funcs.extraction import extract_user
 
 import nltk
 from deeppyer import deepfry
@@ -678,7 +678,7 @@ dispatcher.add_handler(CHANGEMYMIND_HANDLER)
 dispatcher.add_handler(TRUMPTWEET_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 
-__mod_name__ = "Fun"
+__mod_name__ = "Memes"
 __command_list__ = [
     "police",
     "moon",
